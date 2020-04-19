@@ -1,0 +1,113 @@
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Catamaran', sans-serif;
+
+*/
+.home {
+	height: 100vh;
+
+	position: relative;
+	//: solid;
+	font-family: 'Quicksand', sans-serif;
+
+	&-left {
+		height: 100vh;
+
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		@include respond(tab-port) {
+			height: 50vh;
+		}
+
+		&-logo {
+			height: 10rem;
+		}
+
+		&-title {
+			//padding: 7rem 5rem;
+			position: relative;
+			text-align: center;
+			font-size: 6rem;
+			//text-transform: uppercase;
+			letter-spacing: .3rem;
+			display: block;
+			color: rgb(118, 118, 118);
+		}
+
+		&-sub {
+			//padding: 7rem 5rem;
+
+			position: relative;
+			text-align: center;
+			font-size: 2rem;
+			//text-transform: uppercase;
+			letter-spacing: .3rem;
+			display: block;
+			color: rgb(118, 118, 118);
+
+			@include respond(tab-port) {
+				font-size: 3rem;
+			}
+		}
+
+		&-button {
+			//transform: translateX(-50%);
+			//left: 50%;
+			text-decoration: none;
+			color: rgb(118, 118, 118);
+			padding: 4rem 2rem;
+			//border: solid;
+			border-radius: 4px;
+			position: relative;
+			margin: 0 auto;
+
+			width: 90%;
+			display: block;
+			text-align: center;
+			font-size: 3rem;
+			box-shadow: 0 2px 16px rgb(96, 96, 96);
+			transition: all .3s;
+
+			&:hover {
+				box-shadow: 0 1px 7px rgb(96, 96, 96);
+				text-decoration: none;
+				color: rgb(118, 118, 118);
+			}
+		}
+	}
+
+	&-right {
+		margin-top: 6rem;
+		height: 100vh;
+		background-size: cover;
+		background-position: left;
+		background-image: linear-gradient(to right bottom, rgba(black, 0), rgba(black, 0)),
+			url("../imgs/background.png");
+
+		@include respond(tab-port) {
+			background-position: top left;
+			height: 50vh;
+		}
+	}
+
+	&-colLeft {
+		width: 50%;
+		transition: all .5s;
+
+		@include respond(tab-port) {
+			width: 100%;
+		}
+	}
+
+	&-colRight {
+		width: 50%;
+		transition: all .5s;
+		@include respond(tab-port) {
+			width: 100%;
+		}
+	}
+}

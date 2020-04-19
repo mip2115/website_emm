@@ -1,0 +1,164 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	overflow: hidden;
+}
+@media (max-width: 46.25em) {
+	html {
+		font-size: 30%;
+	}
+}
+
+body {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Catamaran', sans-serif;
+
+*/
+.home {
+	height: 100vh;
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+}
+.home-left {
+	height: 100vh;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+@media (max-width: 46.25em) {
+	.home-left {
+		height: 50vh;
+	}
+}
+.home-left-logo {
+	height: 10rem;
+}
+.home-left-title {
+	position: relative;
+	text-align: center;
+	font-size: 6rem;
+	letter-spacing: .3rem;
+	display: block;
+	color: #767676;
+}
+.home-left-sub {
+	position: relative;
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: .3rem;
+	display: block;
+	color: #767676;
+}
+@media (max-width: 46.25em) {
+	.home-left-sub {
+		font-size: 3rem;
+	}
+}
+.home-left-button {
+	text-decoration: none;
+	color: #767676;
+	padding: 4rem 2rem;
+	border-radius: 4px;
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+	-webkit-box-shadow: 0 2px 16px #606060;
+	box-shadow: 0 2px 16px #606060;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.home-left-button:hover {
+	-webkit-box-shadow: 0 1px 7px #606060;
+	box-shadow: 0 1px 7px #606060;
+	text-decoration: none;
+	color: #767676;
+}
+.home-right {
+	margin-top: 6rem;
+	height: 100vh;
+	background-size: cover;
+	background-position: left;
+	background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))),
+		url("../imgs/background.png");
+	background-image: -o-linear-gradient(left top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../imgs/background.png");
+	background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		url("../imgs/background.png");
+}
+@media (max-width: 46.25em) {
+	.home-right {
+		background-position: top left;
+		height: 50vh;
+	}
+}
+.home-colLeft {
+	width: 50%;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+@media (max-width: 46.25em) {
+	.home-colLeft {
+		width: 100%;
+	}
+}
+.home-colRight {
+	width: 50%;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+@media (max-width: 46.25em) {
+	.home-colRight {
+		width: 100%;
+	}
+}
+
+.mheader {
+	text-align: center;
+	color: blue;
+	border: solid;
+	min-height: 15vh;
+	height: 10rem;
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+}
+.mheader-box {
+	top: 50%;
+	position: absolute;
+	border: solid;
+	display: inline-block;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.mheader-box-img {
+	height: 9rem;
+}
