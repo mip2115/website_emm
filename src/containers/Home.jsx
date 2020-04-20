@@ -17,7 +17,7 @@ class Home extends Component {
 								</div>
 
 								<a className="home-left-button" href="https://eobasuyi.typeform.com/to/JRC78d">
-									join us on our mission
+									Contact us
 								</a>
 							</div>
 						</div>
