@@ -11,10 +11,9 @@ class Home extends Component {
 						<div className="home-colLeft">
 							<div className="home-left">
 								<img className="home-left-logo" src={logo} />
-								<div className="home-left-title">find doctors and nurses for free</div>
+								<div className="home-left-title">Engage your patients. Enhance your organizational intelligence.</div>
 								<div className="home-left-sub">
-									our mission is to improve access and efficiency of care through the digitization of
-									the healthcare journey
+									We are on a mission to help healthcare providers in emerging market improve relationship and communications with their patients. 
 								</div>
 
 								<a className="home-left-button" href="https://eobasuyi.typeform.com/to/JRC78d">
